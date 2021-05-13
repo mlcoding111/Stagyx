@@ -9,9 +9,5 @@ export class ButtonSite extends React.Component{
                 <Button style={this.props.bgMessageButton}><span style={this.props.messageButtonColor}>{ this.props.messageButton }</span></Button>
             </>
         );
-
     }
-
-
-
 }
