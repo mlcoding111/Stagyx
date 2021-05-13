@@ -1,3 +1,6 @@
+// Denière modification : 2021-05-110
+// Par : Michael Lacroix
+
 import React, {useMemo} from "react";
 import {useHtmlClassService} from "../../_core/MetronicLayout";
 
@@ -28,25 +31,25 @@ export function Footer() {
             rel="noopener noreferrer"
             className="text-dark-75 text-hover-primary"
           >
-            Keenthemes
+            Stagyx
           </a>
         </div>
         <div className="nav nav-dark order-1 order-md-2">
+        <a
+            href="http://keenthemes.com/metronic"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-link pr-3 pl-0"
+          >
+            Accueil
+          </a>
           <a
             href="http://keenthemes.com/metronic"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link pr-3 pl-0"
           >
-            About
-          </a>
-          <a
-            href="http://keenthemes.com/metronic"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nav-link px-3"
-          >
-            Team
+            A propos
           </a>
           <a
             href="http://keenthemes.com/metronic"
