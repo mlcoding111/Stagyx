@@ -1,7 +1,6 @@
 import React from "react";
-// import { Card } from 'react-bootstrap';
-import { ArchiveParSession } from './ArchiveParSession';
-import { ArchiveParProgramme } from './ArchiveParProgramme'
+import { ArchiveParSession } from '../ArchiveParSession/ArchiveParSession';
+import { ArchiveParProgramme } from '../ArchiveParProgramme/ArchiveParProgramme'
 import '../../css/styleTableauBordGlobal.css'
 
 export class Archives extends React.Component {

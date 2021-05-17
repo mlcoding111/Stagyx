@@ -4,7 +4,7 @@ import { LayoutSplashScreen, ContentRoute } from "../_metronic/layout";
 import { BuilderPage } from "./pages/BuilderPage";
 import { MyPage } from "./pages/MyPage";
 import { DashboardPage } from "./pages/DashboardPage";
-import { TableauDeBordGlobal } from "./pages/TableauDeBordGlobal";
+import { TableauDeBordGlobal } from "./composants/TableauDeBordGlobal/TableauDeBordGlobal";
 
 const GoogleMaterialPage = lazy(() =>
   import("./modules/GoogleMaterialExamples/GoogleMaterialPage")
