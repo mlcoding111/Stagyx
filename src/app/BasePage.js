@@ -4,8 +4,10 @@ import { LayoutSplashScreen, ContentRoute } from "../_metronic/layout";
 import { BuilderPage } from "./pages/BuilderPage";
 import { MyPage } from "./pages/MyPage";
 import { DashboardPage } from "./pages/DashboardPage";
-import { TableauDeBordGlobal } from "./pages/TableauDeBordGlobal";
 import  TableauDeBordGroupe from "./pages/TableauDeBordGroupe/TableauDeBordGroupe";
+import { TableauDeBordGlobal } from "./composants/TableauDeBordGlobal/TableauDeBordGlobal";
+import { Tuteurs } from "./composants/Tuteurs/Tuteurs";
+import { Entreprises } from "./composants/Entreprises/Entreprises"
 
 const GoogleMaterialPage = lazy(() =>
   import("./modules/GoogleMaterialExamples/GoogleMaterialPage")
@@ -36,14 +38,10 @@ export default function BasePage() {
         <ContentRoute path="/dashboard" component={DashboardPage} />
         <ContentRoute path="/builder" component={BuilderPage} />
         <ContentRoute path="/my-page" component={MyPage} />
-        <ContentRoute
-          path="/tableau-de-bord-global"
-          component={TableauDeBordGlobal}
-        />
-        <ContentRoute
-          path="/tableau-de-bord-groupe"
-          component={TableauDeBordGroupe}
-        />
+        <ContentRoute path="/tableau-de-bord-groupe" component={TableauDeBordGroupe} />
+        <ContentRoute path="/tableau-de-bord-global" component={TableauDeBordGlobal} />
+        <ContentRoute path="/tuteurs" component={Tuteurs}  />
+        <ContentRoute path="/entreprises" component={Entreprises}  />
 
         <Route path="/google-material" component={GoogleMaterialPage} />
         <Route path="/react-bootstrap" component={ReactBootstrapPage} />

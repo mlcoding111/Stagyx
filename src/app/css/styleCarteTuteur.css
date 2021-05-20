@@ -1,0 +1,73 @@
+.nomTuteur {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+.solganTuteur {
+    font-size: 11px !important;
+    color: #B5B5C3;
+}
+.avatarTuteur {
+    max-width: 100%;
+    height: auto;
+}
+.nombreStagiares{
+    color: #8950FC;
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.divAvatarTuteur{
+    width: 91px;
+    height: 91px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.buttonAssocierStagiaire{
+    margin-top: 50px;
+}
+.sesStagiaires{
+    font-size: 12px;
+    font-weight: 600;
+    color: #B5B5C3;
+}
+.divAvatarStagiaire {
+    width: 50px;
+    height: 50px;
+}
+.nomStagiaire{
+    font-weight: 600;
+    font-size: 14px;
+}
+.entrepriseHote {
+    font-size: 13px;
+    font-weight: 500;
+    color: #B5B5C3;
+}
+.tuteurDeStage{
+    font-size: 43px;
+    font-weight: 300;
+    color: #B5B5C3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sideBarDroite{
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    width: 17%;
+    top: 0;
+    right: 0;
+    bottom: 45px;
+    z-index: -1;
+    padding-top: 150px;
+    padding-left: 10px;
+}
+.sidebarGauche{
+    width: 17%;
+}
+.divCarteTuteur{
+    width: 62%;
+}
+.divCarteTuteur{
+    margin: 0 20px 20px 0;
+}
