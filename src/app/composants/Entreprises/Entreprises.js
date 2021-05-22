@@ -3,6 +3,7 @@ import { CarteEntreprise }  from "../../composants/CarteEntreprise/CarteEntrepri
 import { Row, Col } from 'react-bootstrap';
 import { ButtonSite } from '../communs/ButtonSite/ButtonSite';
 import { CarteStatistiques } from '../communs/CarteStatistiques/CarteStatistiques';
+import { CarteInfo } from '../communs/CarteInfo/CarteInfo';
 import '../../css/styleCarteEntreprise.css';
 
 
@@ -23,7 +24,7 @@ export class Entreprises extends React.Component{
 
         return(
           <>
-              <div className="d-flex flex-row pageTuteur">
+             {/* <div className="d-flex flex-row pageTuteur">
                   <div className="sidebarGauche">
 
                   </div>
@@ -41,7 +42,31 @@ export class Entreprises extends React.Component{
                       <CarteStatistiques nombre={9} items={"Stagiaires"} numGroupe={'#1080'}/>
                   </div>
 
-              </div>
+              </div>*/}
+              <>
+                  <Row>
+                      <Col sm={3} className="sidebarGauche m-0 p-0">
+                          <CarteInfo />
+
+                      </Col>
+                      <Col sm={6}>
+                          <div className="tuteurDeStage">Tuteurs de stage</div>
+                          <div className="buttonNouveau mb-3" align="right">
+                              <ButtonSite messageButton="Nouveau" messageButtonColor={associerStagiaireButtonColor} bgMessageButton={bgAssocierButton} />
+                          </div>
+                          <CarteEntreprise />
+                          <CarteEntreprise />
+                          <CarteEntreprise />
+                      </Col>
+                      <Col sm={3} className="sideBarRight">
+                          <CarteStatistiques nombre={3} items={"Entreprises"} numGroupe={'#1080'}/>
+                          <CarteStatistiques nombre={9} items={"Stagiaires"} numGroupe={'#1080'}/>
+                      </Col>
+
+                  </Row>
+
+
+              </>
 
 
 

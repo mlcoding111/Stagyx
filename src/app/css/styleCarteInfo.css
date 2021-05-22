@@ -1,0 +1,35 @@
+.divCarteInfo{
+    height: 400px;
+    width: 100%;
+    background-color: #F54759;
+    padding-left: 30px;
+
+}
+.ChangerGroupe{
+    background-color: #E6A6AD !important;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #fff !important;
+}
+.nomProgramme{
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.infoProgramme{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.attributProgramme{
+    font-weight: 400;
+}
+.numGroupeInfo{
+    font-size: 51px;
+    font-weight: 300;
+    color: #fff;
+    margin-right: 10px;
+}
