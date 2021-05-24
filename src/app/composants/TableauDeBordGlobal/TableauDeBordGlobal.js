@@ -25,19 +25,6 @@ export class TableauDeBordGlobal extends React.Component {
 
         return (
             <>
-        {/*        <div className="main">
-                    <div className="row">
-                        <div className="col-6"><h2 class="h2StagiaireActif">Stages actifs</h2></div>
-                        <div className="buttonMessage col-6" align="right"><ButtonSite messageButton="Créer un nouveau message" messageButtonColor={messageButtonColor} bgMessageButton={bgMessageButton} /></div>
-                    </div>
-                    <CarteGroupeActif />
-                    <h2 class="h2StagiaireActif">Annonce rapide</h2>
-                    <ZoneEcrireMessage />
-                </div>
-                <div className="sidebar">
-                    <Archives />
-                </div>*/}
-
                 <Row>
                     <Col sm={9}>
                         <div className="row">
@@ -48,7 +35,7 @@ export class TableauDeBordGlobal extends React.Component {
                         </div>
                         <CarteGroupeActif />
                         <h2 class="h2StagiaireActif">Annonce rapide</h2>
-                        <ZoneEcrireMessage />
+                        <ZoneEcrireMessage ecrireA={'Ecrire à tous les stagiaires'} />
                     </Col>
                     <Col sm={3} className="sidebarGauche">
                         <Archives />

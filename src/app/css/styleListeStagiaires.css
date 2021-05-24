@@ -1,0 +1,33 @@
+.divListeStagaires{
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 10px;
+}
+.titreListeStagiaire{
+    margin-bottom: 40px;
+    color: #212121;
+    font-weight: 600;
+    font-size: 15px;
+}
+.bgAvatar{
+    background-color: #C9F7F5;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+.avatarStagiaire{
+    margin-top: 10px;
+}
+.nomStagaire{
+    color: #212121;
+    font-size: 12px;
+    font-weight: 500;
+}
+.nomProgramme {
+    color: #B5B5C3;
+    font-size: 10px;
+    font-weight: 500;
+}
+.ligneStagiaire{
+    margin-bottom: 35px;
+}

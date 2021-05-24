@@ -7,7 +7,10 @@ import { DashboardPage } from "./pages/DashboardPage";
 import  TableauDeBordGroupe from "./pages/TableauDeBordGroupe/TableauDeBordGroupe";
 import { TableauDeBordGlobal } from "./composants/TableauDeBordGlobal/TableauDeBordGlobal";
 import { Tuteurs } from "./composants/Tuteurs/Tuteurs";
-import { Entreprises } from "./composants/Entreprises/Entreprises"
+import { Entreprises } from "./composants/Entreprises/Entreprises";
+import { ListeTachesEtudiant } from "./composants/ListeTachesEtudiant/ListeTachesEtudiant";
+import { TachesDetails } from "./composants/TachesDetails/TachesDetails";
+
 
 const GoogleMaterialPage = lazy(() =>
   import("./modules/GoogleMaterialExamples/GoogleMaterialPage")
@@ -42,6 +45,8 @@ export default function BasePage() {
         <ContentRoute path="/tableau-de-bord-global" component={TableauDeBordGlobal} />
         <ContentRoute path="/tuteurs" component={Tuteurs}  />
         <ContentRoute path="/entreprises" component={Entreprises}  />
+        <ContentRoute path="/liste-taches-etudiant" component={ListeTachesEtudiant} />
+        <ContentRoute path="/taches-details" component={TachesDetails} />
 
         <Route path="/google-material" component={GoogleMaterialPage} />
         <Route path="/react-bootstrap" component={ReactBootstrapPage} />
