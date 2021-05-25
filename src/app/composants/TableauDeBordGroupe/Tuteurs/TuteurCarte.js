@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
-import "../../css/tuteurCarte.sass";
+
 import BoutonContact from './BoutonContact'
 
 export default function TuteurCarte() {

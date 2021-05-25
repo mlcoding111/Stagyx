@@ -15,7 +15,7 @@ export default function ListeStagiaires() {
                     <div className="d-flex align-items-center mb-10">
                         <div className="symbol symbol-40 symbol-light-success mr-5">
                             <span className="symbol-label">
-                               <img className="avatarTuteur" src={require('../../../../assets/svg/avatars/004-boy-1.svg')} alt=""/>
+                               <img className="avatarTuteur" src={require('../../../assets/svg/avatars/004-boy-1.svg')} alt=""/>
                             </span>                            
                         </div>
                         <div className="d-flex flex-column flex-grow-1 font-weight-bold">
@@ -27,7 +27,7 @@ export default function ListeStagiaires() {
                     <div className="d-flex align-items-center mb-10">
                         <div className="symbol symbol-40 symbol-light-success mr-5">
                             <span className="symbol-label">
-                            <img className="avatarTuteur" src={require('../../../../assets/svg/avatars/002-girl.svg')} alt=""/>                           
+                            <img className="avatarTuteur" src={require('../../../assets/svg/avatars/002-girl.svg')} alt=""/>                           
                             </span>                            
                         </div>
                         <div className="d-flex flex-column flex-grow-1 font-weight-bold">
@@ -39,7 +39,7 @@ export default function ListeStagiaires() {
                     <div className="d-flex align-items-center mb-10">
                         <div className="symbol symbol-40 symbol-light-success mr-5">
                             <span className="symbol-label">
-                            <img className="avatarTuteur" src={require('../../../../assets/svg/avatars/006-girl-3.svg')} alt=""/>                        
+                            <img className="avatarTuteur" src={require('../../../assets/svg/avatars/006-girl-3.svg')} alt=""/>                        
                             </span>                            
                         </div>
                         <div className="d-flex flex-column flex-grow-1 font-weight-bold">
@@ -51,7 +51,7 @@ export default function ListeStagiaires() {
                     <div className="d-flex align-items-center mb-10">
                         <div className="symbol symbol-40 symbol-light-success mr-5">
                             <span className="symbol-label">
-                            <img className="avatarTuteur" src={require('../../../../assets/svg/avatars/007-boy-2.svg')} alt=""/>                           
+                            <img className="avatarTuteur" src={require('../../../assets/svg/avatars/007-boy-2.svg')} alt=""/>                           
                             </span>                            
                         </div>
                         <div className="d-flex flex-column flex-grow-1 font-weight-bold">
