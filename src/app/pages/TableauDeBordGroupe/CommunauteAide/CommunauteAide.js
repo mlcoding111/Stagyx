@@ -7,7 +7,7 @@ export default function CommunauteAide() {
         <div className="d-flex align-items-center mb-10">
           <div className="symbol symbol-40 symbol-light-success mr-5">
             <span className="symbol-label">
-              <img src="user.svg" alt="user" />
+            <img className="avatarTuteur" src={require('../../../assets/svg/avatars/007-boy-2.svg')} alt=""/>        
             </span>
           </div>
           <div className="d-flex flex-column flex-grow-1 font-weight-bold">
@@ -25,10 +25,10 @@ export default function CommunauteAide() {
           letters.{" "}
         </p>
 
-        <div className="row p-5 mt-5 d-flex ml-auto justify-content-center">
+        <div className="row p-5 mt-5 d-flex ml-auto ">
           <div className="symbol symbol-40 symbol-light-success mr-5 d-flex">
             <span className="symbol-label mr-2">
-              <img src="user.svg" alt="user" />
+            <img className="avatarTuteur" src={require('../../../assets/svg/avatars/007-boy-2.svg')} alt=""/>        
             </span>
           </div>
           <b>Michael Lacroix</b>
@@ -42,10 +42,10 @@ export default function CommunauteAide() {
           </div>
         </div>
 
-        <div className="row p-5 mt-5 d-flex ml-auto justify-content-center">
+        <div className="row p-5 mt-5 d-flex ml-auto">
           <div className="symbol symbol-40 symbol-light-success mr-5 d-flex">
             <span className="symbol-label mr-2">
-              <img src="user.svg" alt="user" />
+            <img className="avatarTuteur" src={require('../../../assets/svg/avatars/007-boy-2.svg')} alt=""/>        
             </span>
           </div>
           <b>Michael Lacroix</b>
