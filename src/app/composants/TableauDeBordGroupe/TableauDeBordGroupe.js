@@ -1,6 +1,6 @@
 import React from "react";
-import CarteInfo from "../composants/communs/CarteInfo";
-import ListeStagiaires from "../composants/communs/ListeStagiaires/ListeStagiaires";
+import CarteInfo from "../../composants/communs/CarteInfo/CarteInfo";
+import ListeStagiaires from "../../composants/communs/ListeStagiaires/ListeStagiaires";
 import "../css/tableauBordGroupe.sass";
 import TachesChart from "./Charts/TachesChart";
 import ActivitesRecentes from './ActivitesRecentes/ActivitesRecentes'
