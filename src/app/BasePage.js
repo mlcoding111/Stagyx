@@ -4,10 +4,11 @@ import { LayoutSplashScreen, ContentRoute } from "../_metronic/layout";
 import { BuilderPage } from "./pages/BuilderPage";
 import { MyPage } from "./pages/MyPage";
 import { DashboardPage } from "./pages/DashboardPage";
-import  TableauDeBordGroupe from "./pages/TableauDeBordGroupe/TableauDeBordGroupe";
+import  TableauDeBordGroupe from "./composants/TableauDeBordGroupe/TableauDeBordGroupe";
 import { TableauDeBordGlobal } from "./composants/TableauDeBordGlobal/TableauDeBordGlobal";
 import { Tuteurs } from "./composants/Tuteurs/Tuteurs";
 import { Entreprises } from "./composants/Entreprises/Entreprises"
+import Stagiaires from './composants/Stagiaires/Stagiaires'
 
 const GoogleMaterialPage = lazy(() =>
   import("./modules/GoogleMaterialExamples/GoogleMaterialPage")
@@ -42,6 +43,7 @@ export default function BasePage() {
         <ContentRoute path="/tableau-de-bord-global" component={TableauDeBordGlobal} />
         <ContentRoute path="/tuteurs" component={Tuteurs}  />
         <ContentRoute path="/entreprises" component={Entreprises}  />
+        <ContentRoute path="/stagiaires" component={Stagiaires}  />
 
         <Route path="/google-material" component={GoogleMaterialPage} />
         <Route path="/react-bootstrap" component={ReactBootstrapPage} />
