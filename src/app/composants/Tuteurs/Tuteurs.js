@@ -3,6 +3,7 @@ import { CarteTuteur } from "../../composants/CarteTuteur/CarteTuteur"
 import { Row, Col } from 'react-bootstrap';
 import { ButtonSite } from '../communs/ButtonSite/ButtonSite';
 import { CarteStatistiques } from '../communs/CarteStatistiques/CarteStatistiques';
+import { CarteInfo } from '../communs/CarteInfo/CarteInfo';
 import '../../css/styleCarteTuteur.css';
 
 
@@ -23,31 +24,12 @@ export class Tuteurs extends React.Component{
 
         return(
           <>
-             {/* <Row>
-                  <Col sm={2}>
+              <Row>
+                  <Col sm={3} className="sidebarGauche m-0 p-0">
+                      <CarteInfo />
 
                   </Col>
-                  <Col sm={8}>
-                      <div className="tuteurDeStage">Tuteurs de stage</div>
-                      <div className="buttonNouveau mb-3" align="right">
-                            <ButtonSite messageButton="Nouveau" messageButtonColor={associerStagiaireButtonColor} bgMessageButton={bgAssocierButton} />
-                      </div>
-                      <CarteTuteur />
-                      <CarteTuteur />
-                      <CarteTuteur />
-                  </Col>
-                  <Col sm={2} className="sideBarDroite">
-                      <CarteStatistiques nombre={3} items={"Tuteurs"} numGroupe={'#1080'}/>
-                      <CarteStatistiques nombre={9} items={"Stagiaires"} numGroupe={'#1080'}/>
-                  </Col>
-
-              </Row>*/}
-
-              <div className="d-flex flex-row pageTuteur">
-                  <div className="sidebarGauche">
-
-                  </div>
-                  <div className="divCarteTuteur">
+                  <Col sm={6}>
                       <div className="tuteurDeStage">Tuteurs de stage</div>
                       <div className="buttonNouveau mb-3" align="right">
                           <ButtonSite messageButton="Nouveau" messageButtonColor={associerStagiaireButtonColor} bgMessageButton={bgAssocierButton} />
@@ -55,13 +37,13 @@ export class Tuteurs extends React.Component{
                       <CarteTuteur />
                       <CarteTuteur />
                       <CarteTuteur />
-                  </div>
-                  <div className="sideBarDroite">
+                  </Col>
+                  <Col sm={3} className="sideBarRight">
                       <CarteStatistiques nombre={3} items={"Tuteurs"} numGroupe={'#1080'}/>
                       <CarteStatistiques nombre={9} items={"Stagiaires"} numGroupe={'#1080'}/>
-                  </div>
+                  </Col>
 
-              </div>
+              </Row>
 
 
 

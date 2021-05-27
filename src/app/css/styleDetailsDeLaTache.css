@@ -1,0 +1,94 @@
+.divDetailSDeLaTache{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.detailDelaTache{
+    color: #8950FC;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nombreDeTaches{
+    color: #B5B5C3;
+    font-size: 13px;
+}
+.flecheGauche, .flecheDroite{
+    margin-left: 20px;
+}
+.rowDetailDeLaTache{
+    border-bottom: 1px solid #d6d6e0;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.titreDeLaTache{
+    color: #1B283F;
+    font-size: 20px;
+    font-weight: 500;
+}
+.dateDeLaTache{
+    color: #B5B5C3;
+    font-size: 13px;
+    font-weight: 600;
+}
+.rowTitreDeLaTache{
+    margin-bottom: 50px;
+}
+.texteDeLaTache{
+    color: #B5B5C3;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.evaluateur{
+    color: #B5B5C3;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.divEvaluation{
+    margin-bottom: 15px;
+}
+.evaluationGlobale{
+    color: #B5B5C3;
+    font-size: 14px;
+}
+.evaluationEtoile{
+    border-bottom: 1px solid #d6d6e0;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.commentaire{
+    padding-top: 50px;
+    padding-left: 60px;
+    border-bottom: 1px solid #d6d6e0;
+    padding-bottom: 15px;
+}
+.nomCommentateur{
+    color: #1B283F;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.dureeCommentaire {
+    color: #B5B5C3;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.textCommentaire{
+    font-weight: 600;
+    font-size: 13px;
+    color: #B5B5C3;
+}
+.divCommentaire{
+    padding-top: 10px;
+}
+.divFormCommentaire{
+    margin-top: 25px;
+}
+.laisserComment{
+    color: #8950FC;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}

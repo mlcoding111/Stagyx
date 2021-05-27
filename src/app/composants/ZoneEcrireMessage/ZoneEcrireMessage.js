@@ -90,7 +90,7 @@ export class ZoneEcrireMessage extends React.Component {
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Écrivez votre message" rows="15"></textarea>
-                            <button className=" btn btn-primary mt-5">Envoyer à tous les stagiaires</button>
+                            <button className=" btn btn-primary mt-5">{this.props.ecrireA}</button>
                         </div>
 
                     </Card.Body>
