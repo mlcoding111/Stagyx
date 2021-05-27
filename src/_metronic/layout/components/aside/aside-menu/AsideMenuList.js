@@ -31,7 +31,7 @@ export function AsideMenuList({ layoutProps }) {
     },
     {
       titre: "Entreprises",
-      route: "/stagiaires",
+      route: "/entreprises",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
