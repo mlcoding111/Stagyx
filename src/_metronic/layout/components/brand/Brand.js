@@ -30,6 +30,7 @@ export function Brand() {
         {/* begin::Logo */}
         <Link to="" className="brand-logo">
             <h2 className="text-white">Stagyx</h2>
+
         </Link>
         {/* end::Logo */}
 

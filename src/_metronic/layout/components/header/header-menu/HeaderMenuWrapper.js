@@ -45,8 +45,8 @@ export function HeaderMenuWrapper() {
                     {/*end::Header Logo*/}
                 </>
             )}
-            {/*begin::Header Menu*/}
-            <HeaderMenu layoutProps={layoutProps} />
+            {/*begin::Header Menu */}
+            {/* <HeaderMenu layoutProps={layoutProps} /> */}
             {/*end::Header Menu*/}
         </div>
         {/*Header Menu Wrapper*/}

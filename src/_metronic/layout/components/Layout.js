@@ -54,9 +54,9 @@ export function Layout({ children }) {
                             {!layoutProps.contentExtended && (
                                 <div className="d-flex flex-column-fluid">
                                     {/*begin::Container*/}
-                                    <div className={layoutProps.contentContainerClasses}>
+                                   {<div className={layoutProps.contentContainerClasses}>
                                         {children}
-                                    </div>
+                                    </div>}
                                     {/*end::Container*/}
                                 </div>
                             )}
