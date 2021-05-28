@@ -45,7 +45,7 @@ export class Tuteurs extends React.Component{
 
               <div className="d-flex flex-row pageTuteur">
                   <div className="sidebarGauche">
-
+                        
                   </div>
                   <div className="divCarteTuteur">
                       <div className="tuteurDeStage">Tuteurs de stage</div>
