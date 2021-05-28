@@ -1,6 +1,7 @@
 import React from "react";
 import '../../css/styleStageActif.css';
 import { Row, Col, Card } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 export class CarteGroupeActif extends React.Component {
 
@@ -38,7 +39,7 @@ export class CarteGroupeActif extends React.Component {
                                 <div className="stageActifAttribut">Fin : <span className="stageActifValue">2015-03-25</span></div>
                                 <div className="stageActifAttribut">Stagiaires : <span className="stageActifValue">17</span></div>
                                 <div className="stageActifAttribut">Type : <span className="stageActifValue">Alternance travail-études</span></div>
-                                <div className="stageActifAcceder">Accéder</div>
+                                <div className="stageActifAcceder"><NavLink to='/tableau-de-bord-groupe'>Accéder</NavLink> </div>
                             </Card.Text>
                         </Card.Body>
                     </Card>
