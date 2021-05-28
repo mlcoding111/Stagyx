@@ -11,7 +11,6 @@ export class CarteTuteur extends React.Component {
             color: "#fff",
             fontSize: "12px",
             fontWeight: "600",
-
         };
 
         const bgAssocierButton = {

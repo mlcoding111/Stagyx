@@ -38,3 +38,6 @@
     color: #FFFFFF;
     font-size: 14px;
 }
+.stageActifAcceder>a, .stageActifAcceder>a:hover{
+    color: #fff;
+}

@@ -3,6 +3,7 @@ import { CarteTuteur } from "../../composants/CarteTuteur/CarteTuteur"
 import { Row, Col } from 'react-bootstrap';
 import { ButtonSite } from '../communs/ButtonSite/ButtonSite';
 import { CarteStatistiques } from '../communs/CarteStatistiques/CarteStatistiques';
+import { CarteInfo2 } from '../communs/CarteInfo2/CarteInfo2';
 import '../../css/styleCarteTuteur.css';
 
 
@@ -23,20 +24,21 @@ export class Tuteurs extends React.Component{
 
         return(
           <>
-             {/* <Row>
-                  <Col sm={2}>
+              <Row>
+                  <Col sm={3} className="sidebarGauche m-0 p-0">
+                      <CarteInfo2 />
 
                   </Col>
-                  <Col sm={8}>
+                  <Col sm={6}>
                       <div className="tuteurDeStage">Tuteurs de stage</div>
                       <div className="buttonNouveau mb-3" align="right">
-                            <ButtonSite messageButton="Nouveau" messageButtonColor={associerStagiaireButtonColor} bgMessageButton={bgAssocierButton} />
+                          <ButtonSite messageButton="Nouveau" messageButtonColor={associerStagiaireButtonColor} bgMessageButton={bgAssocierButton} />
                       </div>
                       <CarteTuteur />
                       <CarteTuteur />
                       <CarteTuteur />
                   </Col>
-                  <Col sm={2} className="sideBarDroite">
+                  <Col sm={3} className="sideBarRight">
                       <CarteStatistiques nombre={3} items={"Tuteurs"} numGroupe={'#1080'}/>
                       <CarteStatistiques nombre={9} items={"Stagiaires"} numGroupe={'#1080'}/>
                   </Col>
@@ -62,6 +64,7 @@ export class Tuteurs extends React.Component{
                   </div>
 
               </div>
+              </Row>
 
 
 

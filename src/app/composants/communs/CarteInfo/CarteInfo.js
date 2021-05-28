@@ -21,4 +21,5 @@ export default function CarteInfo(props) {
         </Card.Body>
       </Card>
     )
+
 }
