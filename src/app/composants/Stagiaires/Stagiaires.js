@@ -3,11 +3,13 @@ import CarteInfo from "../communs/CarteInfo/CarteInfo";
 import { Col, Row, Container } from "react-bootstrap";
 
 import StagiairesTableau from "./StagiairesTableau";
+import ListeEtoiles from './ListeEtoiles'
+import SousTitreIcon from './SousTitreIcon'
 
 export default function Stagiaires() {
   return (
     <Container fluid className="m-0 p-0">
-      <Row no-gutters>
+      <Row no-gutters className="h-100">
         <Col md="12" lg="3">
           <CarteInfo />
         </Col>
@@ -15,7 +17,7 @@ export default function Stagiaires() {
           <div className="stagiaires-info">
             <h1>Stagiaires</h1>
             <span className="text-muted"> 28 stagiaires</span>
-            
+
             {/* Button ajouter stagiaire  */}
             <button
               className="float-right d-flex justify-content-center text-center"
@@ -62,9 +64,20 @@ export default function Stagiaires() {
               </svg>
               Nouveau
             </button>
-
           </div>
           <StagiairesTableau />
+        </Col>
+        <Col lg="2" md="12" className="d-flex align-items-center justify-content-center flex-column">
+          <h1 className="text-muted font-weight-light" id="filtre-header">
+            Filtres
+          </h1>
+          <div className="mt-5 mx-auto">
+              {/* Optiopn avec SVG */}
+            <SousTitreIcon titre="Par moyenne" />
+            <ListeEtoiles />
+            <SousTitreIcon titre="Aucune tâche inscrite" />
+            <SousTitreIcon titre="Non affecté à un stage" />
+          </div>
         </Col>
       </Row>
     </Container>
