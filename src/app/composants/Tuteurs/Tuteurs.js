@@ -3,7 +3,7 @@ import { CarteTuteur } from "../../composants/CarteTuteur/CarteTuteur"
 import { Row, Col } from 'react-bootstrap';
 import { ButtonSite } from '../communs/ButtonSite/ButtonSite';
 import { CarteStatistiques } from '../communs/CarteStatistiques/CarteStatistiques';
-import { CarteInfo } from '../communs/CarteInfo/CarteInfo';
+import { CarteInfo2 } from '../communs/CarteInfo2/CarteInfo2';
 import '../../css/styleCarteTuteur.css';
 
 
@@ -26,7 +26,7 @@ export class Tuteurs extends React.Component{
           <>
               <Row>
                   <Col sm={3} className="sidebarGauche m-0 p-0">
-                      <CarteInfo />
+                      <CarteInfo2 />
 
                   </Col>
                   <Col sm={6}>
