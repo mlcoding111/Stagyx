@@ -107,7 +107,26 @@ export function AsideMenuList({ layoutProps }) {
   return (
     <>
       {/* NAV MENU */}
+      <ul className={`menu-nav ${layoutProps.ulClasses}`}>
+        <li className="menu-section ">
+          <h4 className="menu-text">Menu</h4>
+          <i className="menu-icon flaticon-more-v2"></i>
+        </li>
 
+        <li
+            className={`menu-item ${getMenuItemActive("/tableau-de-bord-global", false)}`}
+            aria-haspopup="true"
+            key="2"
+          >
+        <NavLink className="menu-link" to="/tableau-de-bord-global">
+              <span className="svg-icon menu-icon">
+                <SVG src="/media/svg/icons/Design/Layers.svg" />
+              </span>
+              <span className="menu-text">Tableau de bord</span>
+        </NavLink>
+        </li>
+
+      </ul>
       {/* DÉBUT UPPER NAV */}
       <ul className={`menu-nav ${layoutProps.ulClasses}`}>
         <li className="menu-section ">
