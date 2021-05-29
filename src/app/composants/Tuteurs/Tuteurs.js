@@ -45,7 +45,7 @@ export class Tuteurs extends React.Component{
 
               </Row>
 
-              <div className="d-flex flex-row pageTuteur">
+             {/* <div className="d-flex flex-row pageTuteur">
                   <div className="sidebarGauche">
                         
                   </div>
@@ -63,10 +63,7 @@ export class Tuteurs extends React.Component{
                       <CarteStatistiques nombre={9} items={"Stagiaires"} numGroupe={'#1080'}/>
                   </div>
 
-              </div>
-
-
-
+              </div>*/}
           </>
         );
     }
