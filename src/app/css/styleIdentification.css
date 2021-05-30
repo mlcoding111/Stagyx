@@ -1,0 +1,12 @@
+
+
+.test1{
+    background: url("./background.png") no-repeat !important;
+}
+
+@media (min-width: 992px){
+    .login.login-1 .login-aside {
+        max-width: 57%;
+    }
+}
+
