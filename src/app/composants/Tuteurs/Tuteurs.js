@@ -44,26 +44,6 @@ export class Tuteurs extends React.Component{
                   </Col>
 
               </Row>
-
-             {/* <div className="d-flex flex-row pageTuteur">
-                  <div className="sidebarGauche">
-                        
-                  </div>
-                  <div className="divCarteTuteur">
-                      <div className="tuteurDeStage">Tuteurs de stage</div>
-                      <div className="buttonNouveau mb-3" align="right">
-                          <ButtonSite messageButton="Nouveau" messageButtonColor={associerStagiaireButtonColor} bgMessageButton={bgAssocierButton} />
-                      </div>
-                      <CarteTuteur />
-                      <CarteTuteur />
-                      <CarteTuteur />
-                  </div>
-                  <div className="sideBarDroite">
-                      <CarteStatistiques nombre={3} items={"Tuteurs"} numGroupe={'#1080'}/>
-                      <CarteStatistiques nombre={9} items={"Stagiaires"} numGroupe={'#1080'}/>
-                  </div>
-
-              </div>*/}
           </>
         );
     }
