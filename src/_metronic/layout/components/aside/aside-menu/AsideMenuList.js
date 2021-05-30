@@ -22,7 +22,7 @@ export function AsideMenuList({ layoutProps }) {
     {
       titre: "Stagiaires",
       route: "/stagiaires",
-      icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
+      icon: toAbsoluteUrl("/media/svg/icons/Shopping/Box2.svg"),
     },
     {
       titre: "Tuteurs",
@@ -32,21 +32,21 @@ export function AsideMenuList({ layoutProps }) {
     {
       titre: "Entreprises",
       route: "/entreprises",
-      icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
+      icon: toAbsoluteUrl("/media/svg/icons/Home/Library.svg"),
     },
     {
       titre: "Évaluations",
-      route: "/evaluations",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
       titre: "Rapports de stage",
-      route: "/rapports",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
       titre: "Paramètres du stage",
-      route: "/parametre",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
   ];
@@ -55,32 +55,32 @@ export function AsideMenuList({ layoutProps }) {
   const elementsNavigationMid = [
     {
       titre: "Calandrier",
-      route: "/calandrier",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
       titre: "Tâches",
-      route: "/taches",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
       titre: "Entraide",
-      route: "/entraide",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
       titre: "Stages",
-      route: "/stages",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
       titre: "Utilisateurs",
-      route: "/utilisateurs",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
       titre: "Programmes",
-      route: "/programmes",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
   ];
@@ -89,12 +89,12 @@ export function AsideMenuList({ layoutProps }) {
   const elementsNavigationBot = [
     {
       titre: "Outils",
-      route: "/outils",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
       titre: "Préférences",
-      route: "/preferences",
+      route: "#",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
