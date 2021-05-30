@@ -32,7 +32,7 @@ export function AuthPage() {
                   className="max-h-70px"
                   src={toAbsoluteUrl("/media/logos/logo-letter-1.png")}
                 /> */}
-                
+
               </Link>
               {/* end:: Aside header */}
 
@@ -108,7 +108,11 @@ export function AuthPage() {
             </div>
             {/*end::Content header*/}
 
-        
+            {/* begin::Content Title */}
+            <div className="d-flex flex-column-fluid text-center mt-20 mt-5 mt-lg-0 content-title">
+              <h1>EnStage</h1>
+              <p>L'ami des finissants!</p>
+            </div>
 
             {/* begin::Mobile footer */}
             <div className="d-flex d-lg-none flex-column-auto flex-column flex-sm-row justify-content-between align-items-center mt-5 p-5">

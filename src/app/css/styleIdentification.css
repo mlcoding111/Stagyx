@@ -1,12 +1,35 @@
 
 
 .test1{
-    background: url("./background.png") no-repeat !important;
+    background: url("./login-background.png") no-repeat center !important;
+}
+
+.content-title{
+    flex-direction: column;
+}
+
+.content-title h1{
+    margin-top: 100px !important;
+    font-size: 4rem;
+    color: black;
+}
+
+.content-title p{
+    font-weight: bold;
 }
 
 @media (min-width: 992px){
     .login.login-1 .login-aside {
         max-width: 57%;
+    }
+}
+
+@media (max-width: 990px){
+    .test1 {
+        background: none !important
+    }
+    .content-title p, h1{
+        display: none;
     }
 }
 
