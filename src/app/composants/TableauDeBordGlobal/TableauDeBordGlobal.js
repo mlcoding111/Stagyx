@@ -72,7 +72,8 @@ export class TableauDeBordGlobal extends React.Component {
                         <Row>
                             {
                                 this.state.dataReceived.map((key,i) => (
-                                <CarteGroupeActif groupeNumber={key.name}/>
+                                <CarteGroupeActif groupeNumber={key.name} schedule={key.schedule} startDate={key.startDate} endDate={key.endDate}
+                                type={key.type} />
                                 ))
                             }
 
