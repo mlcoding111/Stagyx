@@ -98,8 +98,8 @@ export function AsideMenuList({ layoutProps }) {
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
     {
-      titre: "Quitter",
-      route: "/quitter",
+      titre: "Déconnexion",
+      route: "/logout",
       icon: toAbsoluteUrl("/media/svg/icons/Design/Layers.svg"),
     },
   ];
