@@ -94,11 +94,8 @@ function Login(props) {
       {/* begin::Head */}
       <div className="text-center mb-10 mb-lg-20">
         <h3 className="font-size-h1">
-          <FormattedMessage id="AUTH.LOGIN.TITLE" />
+          Identification
         </h3>
-        <p className="text-muted font-weight-bold">
-          Enter your username and password
-        </p>
       </div>
       {/* end::Head */}
 
@@ -114,8 +111,8 @@ function Login(props) {
         ) : (
           <div className="mb-10 alert alert-custom alert-light-info alert-dismissible">
             <div className="alert-text ">
-              Use account <strong>admin@demo.com</strong> and password{" "}
-              <strong>demo</strong> to continue.
+              Utiliser <strong>admin@demo.com</strong> et mot de passe{" "}
+              <strong>demo</strong> pour continuer.
             </div>
           </div>
         )}
@@ -158,15 +155,15 @@ function Login(props) {
             className="text-dark-50 text-hover-primary my-3 mr-2"
             id="kt_login_forgot"
           >
-            <FormattedMessage id="AUTH.GENERAL.FORGOT_BUTTON" />
+            Mot de passe oublié
           </Link>
           <button
             id="kt_login_signin_submit"
             type="submit"
             disabled={formik.isSubmitting}
-            className={`btn btn-primary font-weight-bold px-9 py-4 my-3`}
+            className={`btn btn-dark font-weight-bold px-9 py-4 my-3`}
           >
-            <span>Sign In</span>
+            <span>C'est parti</span>
             {loading && <span className="ml-3 spinner spinner-white"></span>}
           </button>
         </div>

@@ -7,7 +7,6 @@ import Login from "./Login";
 import Registration from "./Registration";
 import ForgotPassword from "./ForgotPassword";
 import "../../../../_metronic/_assets/sass/pages/login/classic/login-1.scss";
-import '../../../css/styleIdentification.css'
 
 export function AuthPage() {
   return (
@@ -21,43 +20,24 @@ export function AuthPage() {
           {/*begin::Aside*/}
           <div
             className="login-aside d-flex flex-row-auto bgi-size-cover bgi-no-repeat p-10 p-lg-10"
+            style={{
+              backgroundImage: `url(${toAbsoluteUrl("/media/bg/bg-4.jpg")})`,
+            }}
           >
             {/*begin: Aside Container*/}
             <div className="d-flex flex-row-fluid flex-column justify-content-between">
               {/* start:: Aside header */}
               <Link to="/" className="flex-column-auto mt-5 pb-lg-0 pb-10">
-
-                {/* <img
+                <img
                   alt="Logo"
                   className="max-h-70px"
                   src={toAbsoluteUrl("/media/logos/logo-letter-1.png")}
-                /> */}
-
+                />
               </Link>
               {/* end:: Aside header */}
 
               {/* start:: Aside content */}
               <div className="flex-column-fluid d-flex flex-column justify-content-center">
-
-                    {/* begin::Content body */}
-            <div className="d-flex flex-column-fluid flex-center mt-30 mt-lg-0">
-              <Switch>
-                <ContentRoute path="/auth/login" component={Login} />
-                <ContentRoute
-                  path="/auth/registration"
-                  component={Registration}
-                />
-                <ContentRoute
-                  path="/auth/forgot-password"
-                  component={ForgotPassword}
-                />
-                <Redirect from="/auth" exact={true} to="/auth/login" />
-                <Redirect to="/auth/login" />
-              </Switch>
-            </div>
-            {/*end::Content body*/}
-
-
                 <h3 className="font-size-h1 mb-5 text-white">
                   Welcome to Metronic!
                 </h3>
@@ -92,27 +72,39 @@ export function AuthPage() {
           {/*begin::Aside*/}
 
           {/*begin::Content*/}
-          <div className="d-flex flex-column flex-row-fluid position-relative p-7 overflow-hidden test1">
+          <div className="d-flex flex-column flex-row-fluid position-relative p-7 overflow-hidden">
             {/*begin::Content header*/}
             <div className="position-absolute top-0 right-0 text-right mt-5 mb-15 mb-lg-0 flex-column-auto justify-content-center py-5 px-10">
               <span className="font-weight-bold text-dark-50">
-                Vous n'avez pas de compte ?
+                Don't have an account yet?
               </span>
               <Link
                 to="/auth/registration"
                 className="font-weight-bold ml-2"
                 id="kt_login_signup"
               >
-                S'inscrire!
+                Sign Up!
               </Link>
             </div>
             {/*end::Content header*/}
 
-            {/* begin::Content Title */}
-            <div className="d-flex flex-column-fluid text-center mt-20 mt-5 mt-lg-0 content-title">
-              <h1>EnStage</h1>
-              <p>L'ami des finissants!</p>
+            {/* begin::Content body */}
+            <div className="d-flex flex-column-fluid flex-center mt-30 mt-lg-0">
+              <Switch>
+                <ContentRoute path="/auth/login" component={Login} />
+                <ContentRoute
+                  path="/auth/registration"
+                  component={Registration}
+                />
+                <ContentRoute
+                  path="/auth/forgot-password"
+                  component={ForgotPassword}
+                />
+                <Redirect from="/auth" exact={true} to="/auth/login" />
+                <Redirect to="/auth/login" />
+              </Switch>
             </div>
+            {/*end::Content body*/}
 
             {/* begin::Mobile footer */}
             <div className="d-flex d-lg-none flex-column-auto flex-column flex-sm-row justify-content-between align-items-center mt-5 p-5">
