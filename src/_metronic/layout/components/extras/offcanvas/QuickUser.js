@@ -79,7 +79,7 @@ export function QuickUser() {
               className="btn btn-light-primary btn-bold"
               onClick={logoutClick}
             >
-              Sign out
+              Déconnexion
             </button>
           </div>
         </div>
@@ -101,11 +101,11 @@ export function QuickUser() {
                 </div>
               </div>
               <div className="navi-text">
-                <div className="font-weight-bold">My Profile</div>
+                <div className="font-weight-bold">Mon profile</div>
                 <div className="text-muted">
-                  Account settings and more{" "}
+                Paramètres du compte et plus{" "}
                   <span className="label label-light-danger label-inline font-weight-bold">
-                    update
+                    mise a jour
                   </span>
                 </div>
               </div>
@@ -126,8 +126,8 @@ export function QuickUser() {
                 </div>
               </div>
               <div className="navi-text">
-                <div className="font-weight-bold">My Messages</div>
-                <div className="text-muted">Inbox and tasks</div>
+              <div className="font-weight-bold">Mes messages</div>
+                <div className="text-muted">Boîte de messagerie et tâches</div>
               </div>
             </div>
           </Link>
@@ -146,8 +146,8 @@ export function QuickUser() {
                 </div>
               </div>
               <div className="navi-text">
-                <div className="font-weight-bold">My Activities</div>
-                <div className="text-muted">Logs and notifications</div>
+              <div className="font-weight-bold">Mes activités</div>
+                <div className="text-muted">Connexions et notifications</div>
               </div>
             </div>
           </a>
@@ -166,8 +166,8 @@ export function QuickUser() {
                 </div>
               </div>
               <div className="navi-text">
-                <div className="font-weight-bold">My Tasks</div>
-                <div className="text-muted">latest tasks and projects</div>
+                <div className="font-weight-bold">Mes tâches</div>
+                <div className="text-muted">dernière tâches et projets</div>
               </div>
             </div>
           </a>
@@ -176,7 +176,7 @@ export function QuickUser() {
         <div className="separator separator-dashed my-7"></div>
 
         <div>
-          <h5 className="mb-5">Recent Notifications</h5>
+          <h5 className="mb-5">Notification récentes</h5>
 
           <div className="d-flex align-items-center bg-light-warning rounded p-5 gutter-b">
             <span className="svg-icon svg-icon-warning mr-5">
@@ -191,9 +191,9 @@ export function QuickUser() {
                 href="#"
                 className="font-weight-normal text-dark-75 text-hover-primary font-size-lg mb-1"
               >
-                Another purpose persuade
+                Projet synthèse
               </a>
-              <span className="text-muted font-size-sm">Due in 2 Days</span>
+              <span className="text-muted font-size-sm">Due dans 2 jours</span>
             </div>
 
             <span className="font-weight-bolder text-warning py-1 font-size-lg">
@@ -213,9 +213,9 @@ export function QuickUser() {
                 href="#"
                 className="font-weight-normal text-dark-75 text-hover-primary font-size-lg mb-1"
               >
-                Would be to people
+                Courriel important
               </a>
-              <span className="text-muted font-size-sm">Due in 2 Days</span>
+              <span className="text-muted font-size-sm">Due dans 1 jour</span>
             </div>
 
             <span className="font-weight-bolder text-success py-1 font-size-lg">
@@ -237,9 +237,9 @@ export function QuickUser() {
                 href="#"
                 className="font-weight-normel text-dark-75 text-hover-primary font-size-lg mb-1"
               >
-                Purpose would be to persuade
+               Autre notification
               </a>
-              <span className="text-muted font-size-sm">Due in 2 Days</span>
+              <span className="text-muted font-size-sm">Due dans une semaine</span>
             </div>
 
             <span className="font-weight-bolder text-danger py-1 font-size-lg">
@@ -260,9 +260,9 @@ export function QuickUser() {
                 href="#"
                 className="font-weight-normel text-dark-75 text-hover-primary font-size-lg mb-1"
               >
-                The best product
+                Le meilleur produit
               </a>
-              <span className="text-muted font-size-sm">Due in 2 Days</span>
+              <span className="text-muted font-size-sm">Due dans 4 jours</span>
             </div>
 
             <span className="font-weight-bolder text-info py-1 font-size-lg">
