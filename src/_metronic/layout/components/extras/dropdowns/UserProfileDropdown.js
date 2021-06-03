@@ -97,10 +97,10 @@ export function UserProfileDropdown() {
               </div>
               <div className="navi-text">
                 <div className="font-weight-bold cursor-pointer">
-                  My Profile
+                  Mon profile
                 </div>
                 <div className="text-muted">
-                  Account settings and more
+                  Paramètres du compte et plus
                   <span className="label label-light-danger label-inline font-weight-bold">
                     update
                   </span>
@@ -115,8 +115,8 @@ export function UserProfileDropdown() {
                 <i className="flaticon2-mail text-warning"></i>
               </div>
               <div className="navi-text">
-                <div className="font-weight-bold">My Messages</div>
-                <div className="text-muted">Inbox and tasks</div>
+                <div className="font-weight-bold">Mes messages</div>
+                <div className="text-muted">Boîte de messagerie et tâches</div>
               </div>
             </div>
           </a>
@@ -127,8 +127,8 @@ export function UserProfileDropdown() {
                 <i className="flaticon2-rocket-1 text-danger"></i>
               </div>
               <div className="navi-text">
-                <div className="font-weight-bold">My Activities</div>
-                <div className="text-muted">Logs and notifications</div>
+                <div className="font-weight-bold">Mes activités</div>
+                <div className="text-muted">Connexions et notifications</div>
               </div>
             </div>
           </a>
@@ -151,7 +151,7 @@ export function UserProfileDropdown() {
               to="/logout"
               className="btn btn-light-primary font-weight-bold"
             >
-              Sign Out
+              Déconnexion
             </Link>
             <a href="#" className="btn btn-clean font-weight-bold">
               Upgrade Plan
