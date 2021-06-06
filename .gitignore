@@ -20,8 +20,8 @@
 
 
 # production
-#/_site
-#/build
+/_site
+/build
 
 # misc
 .DS_Store
