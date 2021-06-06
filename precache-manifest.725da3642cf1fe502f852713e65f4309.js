@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "195f3e93b10ebbfceded28fb3dfb0b01",
+    "revision": "cde60a3bc95f392fbc0d1603f246643f",
     "url": "/Stagyx/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Stagyx/static/css/3.c84f3220.chunk.css"
   },
   {
-    "revision": "1eb50b67e00406a7607c",
+    "revision": "fc240d50537579f52f27",
     "url": "/Stagyx/static/css/main.05d774eb.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Stagyx/static/js/9.01593167.chunk.js"
   },
   {
-    "revision": "1eb50b67e00406a7607c",
-    "url": "/Stagyx/static/js/main.4f22e653.chunk.js"
+    "revision": "fc240d50537579f52f27",
+    "url": "/Stagyx/static/js/main.00e33680.chunk.js"
   },
   {
     "revision": "384e4b6a9db4a48c1d9c",
