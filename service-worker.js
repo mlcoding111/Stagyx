@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Stagyx/precache-manifest.21d8b7131e087923265539d1dc829a17.js"
+  "/Stagyx/precache-manifest.f99703bd3ac24a83ac350ec82b72fc2a.js"
 );
 
 self.addEventListener('message', (event) => {
