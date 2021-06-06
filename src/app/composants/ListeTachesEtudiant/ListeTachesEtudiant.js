@@ -22,6 +22,9 @@ export class ListeTachesEtudiant extends React.Component {
                     </Col>
                     <Col sm={6}>
                         <TachesStagiaire />
+                        <TachesStagiaire />
+                        <TachesStagiaire />
+                        <TachesStagiaire />
                     </Col>
                     <Col sm={3} className="sideBarRight">
                         <ProfilTuteurHote />

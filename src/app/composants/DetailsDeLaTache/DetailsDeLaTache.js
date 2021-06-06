@@ -14,7 +14,7 @@ export class DetailsDeLaTache extends React.Component{
                     <Row className="rowDetailDeLaTache">
                         <Col className="detailDelaTache" sm={8}>Détails de la tâche</Col>
                         <Col sm={1}>
-                            courbe
+
 
                         </Col>
                         <Col sm={3} align="right">
